@@ -1,0 +1,29 @@
+html{
+    font-family: Arial;
+}
+
+[class *= div]{
+    width: 30%;
+    padding: 1%;
+}
+.div1{
+    float: left;
+    background-color: azure;
+}
+
+.div2{
+    float: left;
+    background-color: antiquewhite;
+}
+
+.div3{
+    float: left;
+    background-color: darkgreen;
+    color: snow;
+}
+
+@media only screen and (max-width: 700px){
+    [class *= div]{
+        width: 100%;
+    }
+}c
